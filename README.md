@@ -12,6 +12,9 @@ Update, activate and config the plugin in the ILIAS Plugin Administration
 ### Some screenshots
 TODO
 
+### Mods
+- ILIAS Tests: Place toolbar buttons right to control buttons
+
 ### Dependencies
 * ILIAS 5.3
 * PHP >=7.0
