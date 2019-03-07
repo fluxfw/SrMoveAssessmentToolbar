@@ -9,14 +9,14 @@ class ComposerStaticInit669188a967595250d2b0a0b5782d8b5e
     public static $prefixLengthsPsr4 = array (
         's' => 
         array (
-            'srag\\UNIBAS\\Plugins\\GallikerMods\\' => 33,
+            'srag\\Galliker\\Plugins\\GallikerMods\\' => 33,
             'srag\\LibrariesNamespaceChanger\\' => 31,
             'srag\\DIC\\' => 9,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'srag\\UNIBAS\\Plugins\\GallikerMods\\' => 
+        'srag\\Galliker\\Plugins\\GallikerMods\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

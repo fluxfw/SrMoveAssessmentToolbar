@@ -5,7 +5,7 @@ Start at your ILIAS root directory
 ```bash
 mkdir -p Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
 cd Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
-git clone git@git.studer-raimann.ch:ILIAS/Kunden/UNIBAS/GallikerMods.git GallikerMods
+git clone git@git.studer-raimann.ch:ILIAS/Kunden/Galliker/GallikerMods.git GallikerMods
 ```
 Update, activate and config the plugin in the ILIAS Plugin Administration
 

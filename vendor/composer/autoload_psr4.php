@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'srag\\UNIBAS\\Plugins\\GallikerMods\\' => array($baseDir . '/src'),
+    'srag\\Galliker\\Plugins\\GallikerMods\\' => array($baseDir . '/src'),
     'srag\\LibrariesNamespaceChanger\\' => array($vendorDir . '/srag/librariesnamespacechanger/src'),
     'srag\\DIC\\' => array($vendorDir . '/srag/dic/src'),
 );

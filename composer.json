@@ -5,9 +5,9 @@
   "keywords": [
     "ILIAS",
     "Plugin",
-    "UNIBAS"
+    "Galliker"
   ],
-  "homepage": "https://git.studer-raimann.ch/ILIAS/Kunden/UNIBAS/GallikerMods",
+  "homepage": "https://git.studer-raimann.ch/ILIAS/Kunden/Galliker/GallikerMods",
   "license": "",
   "authors": [
     {
@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "srag\\UNIBAS\\Plugins\\GallikerMods\\": "src/"
+      "srag\\Galliker\\Plugins\\GallikerMods\\": "src/"
     },
     "classmap": [
       "classes/"
