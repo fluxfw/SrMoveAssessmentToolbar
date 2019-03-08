@@ -11,7 +11,7 @@ Update, activate and config the plugin in the ILIAS Plugin Administration
 
 ### Some screenshots
 Test:
-![Support button](./doc/screenshots/test.png)
+![Test](./doc/screenshots/test.png)
 
 ### Dependencies
 * ILIAS 5.3 or ILIAS 5.4
