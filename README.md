@@ -10,7 +10,8 @@ git clone https://github.com/studer-raimann/MoveAssessmentToolbar.git MoveAssess
 Update, activate and config the plugin in the ILIAS Plugin Administration
 
 ### Some screenshots
-TODO
+Test:
+![Support button](./doc/screenshots/test.png)
 
 ### Dependencies
 * ILIAS 5.3 or ILIAS 5.4
