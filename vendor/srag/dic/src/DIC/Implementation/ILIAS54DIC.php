@@ -1,16 +1,16 @@
 <?php
 
-namespace srag\DIC\MoveAssessmentToolbar\DIC\Implementation;
+namespace srag\DIC\SrMoveAssessmentToolbar\DIC\Implementation;
 
 use ILIAS\DI\Container;
 use ILIAS\Services\AssessmentQuestion\Factory\AsqFactory;
-use srag\DIC\MoveAssessmentToolbar\DIC\AbstractDIC;
-use srag\DIC\MoveAssessmentToolbar\DICStatic;
+use srag\DIC\SrMoveAssessmentToolbar\DIC\AbstractDIC;
+use srag\DIC\SrMoveAssessmentToolbar\DICStatic;
 
 /**
  * Class ILIAS54DIC
  *
- * @package srag\DIC\MoveAssessmentToolbar\DIC\Implementation
+ * @package srag\DIC\SrMoveAssessmentToolbar\DIC\Implementation
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */

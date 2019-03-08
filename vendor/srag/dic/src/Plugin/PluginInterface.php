@@ -1,16 +1,16 @@
 <?php
 
-namespace srag\DIC\MoveAssessmentToolbar\Plugin;
+namespace srag\DIC\SrMoveAssessmentToolbar\Plugin;
 
 use ilPlugin;
 use ilTemplate;
 use ilTemplateException;
-use srag\DIC\MoveAssessmentToolbar\Exception\DICException;
+use srag\DIC\SrMoveAssessmentToolbar\Exception\DICException;
 
 /**
  * Interface PluginInterface
  *
- * @package srag\DIC\MoveAssessmentToolbar\Plugin
+ * @package srag\DIC\SrMoveAssessmentToolbar\Plugin
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */

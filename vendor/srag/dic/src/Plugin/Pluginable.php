@@ -1,11 +1,11 @@
 <?php
 
-namespace srag\DIC\MoveAssessmentToolbar\Plugin;
+namespace srag\DIC\SrMoveAssessmentToolbar\Plugin;
 
 /**
  * Interface Pluginable
  *
- * @package srag\DIC\MoveAssessmentToolbar\Plugin
+ * @package srag\DIC\SrMoveAssessmentToolbar\Plugin
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */

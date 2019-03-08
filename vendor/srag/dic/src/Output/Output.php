@@ -1,19 +1,19 @@
 <?php
 
-namespace srag\DIC\MoveAssessmentToolbar\Output;
+namespace srag\DIC\SrMoveAssessmentToolbar\Output;
 
 use ILIAS\UI\Component\Component;
 use ilTable2GUI;
 use ilTemplate;
 use JsonSerializable;
-use srag\DIC\MoveAssessmentToolbar\DICTrait;
-use srag\DIC\MoveAssessmentToolbar\Exception\DICException;
+use srag\DIC\SrMoveAssessmentToolbar\DICTrait;
+use srag\DIC\SrMoveAssessmentToolbar\Exception\DICException;
 use stdClass;
 
 /**
  * Class Output
  *
- * @package srag\DIC\MoveAssessmentToolbar\Output
+ * @package srag\DIC\SrMoveAssessmentToolbar\Output
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */

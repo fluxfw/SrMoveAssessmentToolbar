@@ -1,12 +1,12 @@
 {
-  "name": "srag/plugins/moveassessmenttoolbar",
+  "name": "srag/plugins/srmoveassessmenttoolbar",
   "description": "",
   "type": "project",
   "keywords": [
     "ILIAS",
     "Plugin"
   ],
-  "homepage": "https://github.com/studer-raimann/MoveAssessmentToolbar",
+  "homepage": "https://github.com/studer-raimann/SrMoveAssessmentToolbar",
   "license": "",
   "authors": [
     {
@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "srag\\Plugins\\MoveAssessmentToolbar\\": "src/"
+      "srag\\Plugins\\SrMoveAssessmentToolbar\\": "src/"
     },
     "classmap": [
       "classes/"

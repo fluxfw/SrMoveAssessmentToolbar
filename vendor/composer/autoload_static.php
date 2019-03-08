@@ -9,14 +9,14 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
     public static $prefixLengthsPsr4 = array (
         's' => 
         array (
-            'srag\\Plugins\\MoveAssessmentToolbar\\' => 35,
+            'srag\\Plugins\\SrMoveAssessmentToolbar\\' => 35,
             'srag\\LibrariesNamespaceChanger\\' => 31,
             'srag\\DIC\\' => 9,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'srag\\Plugins\\MoveAssessmentToolbar\\' => 
+        'srag\\Plugins\\SrMoveAssessmentToolbar\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -31,26 +31,26 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
     );
 
     public static $classMap = array (
-        'ilMoveAssessmentToolbarPlugin' => __DIR__ . '/../..' . '/classes/class.ilMoveAssessmentToolbarPlugin.php',
-        'ilMoveAssessmentToolbarUIHookGUI' => __DIR__ . '/../..' . '/classes/class.ilMoveAssessmentToolbarUIHookGUI.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\DICStatic' => __DIR__ . '/..' . '/srag/dic/src/DICStatic.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\DICStaticInterface' => __DIR__ . '/..' . '/srag/dic/src/DICStaticInterface.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\DICTrait' => __DIR__ . '/..' . '/srag/dic/src/DICTrait.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\DIC\\AbstractDIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/AbstractDIC.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\DIC\\DICInterface' => __DIR__ . '/..' . '/srag/dic/src/DIC/DICInterface.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\DIC\\Implementation\\ILIAS52DIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/Implementation/ILIAS52DIC.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\DIC\\Implementation\\ILIAS53DIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/Implementation/ILIAS53DIC.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\DIC\\Implementation\\ILIAS54DIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/Implementation/ILIAS54DIC.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\DIC\\Implementation\\LegacyDIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/Implementation/LegacyDIC.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\Exception\\DICException' => __DIR__ . '/..' . '/srag/dic/src/Exception/DICException.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\Output\\Output' => __DIR__ . '/..' . '/srag/dic/src/Output/Output.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\Output\\OutputInterface' => __DIR__ . '/..' . '/srag/dic/src/Output/OutputInterface.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\PHPVersionChecker' => __DIR__ . '/..' . '/srag/dic/src/PHPVersionChecker.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\Plugin\\Plugin' => __DIR__ . '/..' . '/srag/dic/src/Plugin/Plugin.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\Plugin\\PluginInterface' => __DIR__ . '/..' . '/srag/dic/src/Plugin/PluginInterface.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\Plugin\\Pluginable' => __DIR__ . '/..' . '/srag/dic/src/Plugin/Pluginable.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\Version\\Version' => __DIR__ . '/..' . '/srag/dic/src/Version/Version.php',
-        'srag\\DIC\\MoveAssessmentToolbar\\Version\\VersionInterface' => __DIR__ . '/..' . '/srag/dic/src/Version/VersionInterface.php',
+        'ilSrMoveAssessmentToolbarPlugin' => __DIR__ . '/../..' . '/classes/class.ilSrMoveAssessmentToolbarPlugin.php',
+        'ilSrMoveAssessmentToolbarUIHookGUI' => __DIR__ . '/../..' . '/classes/class.ilSrMoveAssessmentToolbarUIHookGUI.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\DICStatic' => __DIR__ . '/..' . '/srag/dic/src/DICStatic.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\DICStaticInterface' => __DIR__ . '/..' . '/srag/dic/src/DICStaticInterface.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\DICTrait' => __DIR__ . '/..' . '/srag/dic/src/DICTrait.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\AbstractDIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/AbstractDIC.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\DICInterface' => __DIR__ . '/..' . '/srag/dic/src/DIC/DICInterface.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\Implementation\\ILIAS52DIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/Implementation/ILIAS52DIC.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\Implementation\\ILIAS53DIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/Implementation/ILIAS53DIC.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\Implementation\\ILIAS54DIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/Implementation/ILIAS54DIC.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\Implementation\\LegacyDIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/Implementation/LegacyDIC.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Exception\\DICException' => __DIR__ . '/..' . '/srag/dic/src/Exception/DICException.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Output\\Output' => __DIR__ . '/..' . '/srag/dic/src/Output/Output.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Output\\OutputInterface' => __DIR__ . '/..' . '/srag/dic/src/Output/OutputInterface.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\PHPVersionChecker' => __DIR__ . '/..' . '/srag/dic/src/PHPVersionChecker.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\Plugin' => __DIR__ . '/..' . '/srag/dic/src/Plugin/Plugin.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\PluginInterface' => __DIR__ . '/..' . '/srag/dic/src/Plugin/PluginInterface.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\Pluginable' => __DIR__ . '/..' . '/srag/dic/src/Plugin/Pluginable.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\Version' => __DIR__ . '/..' . '/srag/dic/src/Version/Version.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\VersionInterface' => __DIR__ . '/..' . '/srag/dic/src/Version/VersionInterface.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
     );
 

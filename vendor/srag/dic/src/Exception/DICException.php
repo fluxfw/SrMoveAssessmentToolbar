@@ -1,13 +1,13 @@
 <?php
 
-namespace srag\DIC\MoveAssessmentToolbar\Exception;
+namespace srag\DIC\SrMoveAssessmentToolbar\Exception;
 
 use ilException;
 
 /**
  * Class DICException
  *
- * @package srag\DIC\MoveAssessmentToolbar\Exception
+ * @package srag\DIC\SrMoveAssessmentToolbar\Exception
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */

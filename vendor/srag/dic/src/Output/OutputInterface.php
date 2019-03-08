@@ -1,16 +1,16 @@
 <?php
 
-namespace srag\DIC\MoveAssessmentToolbar\Output;
+namespace srag\DIC\SrMoveAssessmentToolbar\Output;
 
 use ilTemplateException;
 use JsonSerializable;
-use srag\DIC\MoveAssessmentToolbar\Exception\DICException;
+use srag\DIC\SrMoveAssessmentToolbar\Exception\DICException;
 use stdClass;
 
 /**
  * Interface OutputInterface
  *
- * @package srag\DIC\MoveAssessmentToolbar\Output
+ * @package srag\DIC\SrMoveAssessmentToolbar\Output
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */

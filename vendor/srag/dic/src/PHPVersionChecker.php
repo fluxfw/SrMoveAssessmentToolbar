@@ -1,13 +1,13 @@
 <?php
 
-namespace srag\DIC\MoveAssessmentToolbar;
+namespace srag\DIC\SrMoveAssessmentToolbar;
 
 use Throwable;
 
 /**
  * Class PHPVersionChecker
  *
- * @package srag\DIC\MoveAssessmentToolbar
+ * @package srag\DIC\SrMoveAssessmentToolbar
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  *
