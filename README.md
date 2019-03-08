@@ -1,11 +1,11 @@
 ## Installation
 
-### Install MoveAssessmentToolbar-Plugin
+### Install SrMoveAssessmentToolbar-Plugin
 Start at your ILIAS root directory
 ```bash
 mkdir -p Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
 cd Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
-git clone https://github.com/studer-raimann/MoveAssessmentToolbar.git MoveAssessmentToolbar
+git clone https://github.com/studer-raimann/SrMoveAssessmentToolbar.git SrMoveAssessmentToolbar
 ```
 Update, activate and config the plugin in the ILIAS Plugin Administration
 

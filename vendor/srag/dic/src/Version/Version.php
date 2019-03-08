@@ -1,11 +1,11 @@
 <?php
 
-namespace srag\DIC\MoveAssessmentToolbar\Version;
+namespace srag\DIC\SrMoveAssessmentToolbar\Version;
 
 /**
  * Class Version
  *
- * @package srag\DIC\MoveAssessmentToolbar\Version
+ * @package srag\DIC\SrMoveAssessmentToolbar\Version
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */

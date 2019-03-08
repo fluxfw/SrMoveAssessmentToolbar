@@ -2,18 +2,18 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use srag\DIC\MoveAssessmentToolbar\DICTrait;
+use srag\DIC\SrMoveAssessmentToolbar\DICTrait;
 
 /**
- * Class ilMoveAssessmentToolbarPlugin
+ * Class ilSrMoveAssessmentToolbarPlugin
  *
  * @author studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
-class ilMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin {
+class ilSrMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin {
 
 	use DICTrait;
 	const PLUGIN_ID = "srmoasto";
-	const PLUGIN_NAME = "MoveAssessmentToolbar";
+	const PLUGIN_NAME = "SrMoveAssessmentToolbar";
 	const PLUGIN_CLASS_NAME = self::class;
 	/**
 	 * @var self|null
@@ -34,7 +34,7 @@ class ilMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin {
 
 
 	/**
-	 * ilMoveAssessmentToolbarPlugin constructor
+	 * ilSrMoveAssessmentToolbarPlugin constructor
 	 */
 	public function __construct() {
 		parent::__construct();

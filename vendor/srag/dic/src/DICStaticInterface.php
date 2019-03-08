@@ -1,17 +1,17 @@
 <?php
 
-namespace srag\DIC\MoveAssessmentToolbar;
+namespace srag\DIC\SrMoveAssessmentToolbar;
 
-use srag\DIC\MoveAssessmentToolbar\DIC\DICInterface;
-use srag\DIC\MoveAssessmentToolbar\Exception\DICException;
-use srag\DIC\MoveAssessmentToolbar\Output\OutputInterface;
-use srag\DIC\MoveAssessmentToolbar\Plugin\PluginInterface;
-use srag\DIC\MoveAssessmentToolbar\Version\VersionInterface;
+use srag\DIC\SrMoveAssessmentToolbar\DIC\DICInterface;
+use srag\DIC\SrMoveAssessmentToolbar\Exception\DICException;
+use srag\DIC\SrMoveAssessmentToolbar\Output\OutputInterface;
+use srag\DIC\SrMoveAssessmentToolbar\Plugin\PluginInterface;
+use srag\DIC\SrMoveAssessmentToolbar\Version\VersionInterface;
 
 /**
  * Interface DICStaticInterface
  *
- * @package srag\DIC\MoveAssessmentToolbar
+ * @package srag\DIC\SrMoveAssessmentToolbar
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
