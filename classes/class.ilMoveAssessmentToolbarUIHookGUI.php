@@ -2,17 +2,17 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use srag\DIC\GallikerMods\DICTrait;
+use srag\DIC\MoveAssessmentToolbar\DICTrait;
 
 /**
- * Class ilGallikerModsUIHookGUI
+ * Class ilMoveAssessmentToolbarUIHookGUI
  *
  * @author studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
-class ilGallikerModsUIHookGUI extends ilUIHookPluginGUI {
+class ilMoveAssessmentToolbarUIHookGUI extends ilUIHookPluginGUI {
 
 	use DICTrait;
-	const PLUGIN_CLASS_NAME = ilGallikerModsPlugin::class;
+	const PLUGIN_CLASS_NAME = ilMoveAssessmentToolbarPlugin::class;
 	const INIT = "init";
 	const TEST_TEMPLATE_ID = "Modules/Test/tpl.il_as_tst_output.html";
 	const TEMPLATE_GET = "template_get";
@@ -23,7 +23,7 @@ class ilGallikerModsUIHookGUI extends ilUIHookPluginGUI {
 
 
 	/**
-	 * ilGallikerModsUIHookGUI constructor
+	 * ilMoveAssessmentToolbarUIHookGUI constructor
 	 */
 	public function __construct() {
 
@@ -62,7 +62,7 @@ class ilGallikerModsUIHookGUI extends ilUIHookPluginGUI {
 							$html = substr($html, 0, ($container_end_pos - 1)) . file_get_contents(__DIR__ . "/../templates/test_toolbar_container_end.html")
 								. substr($html, $container_end_pos);
 
-							self::dic()->mainTemplate()->addCss(self::plugin()->directory() . "/css/gallikermods.css");
+							self::dic()->mainTemplate()->addCss(self::plugin()->directory() . "/css/srmoasto.css");
 
 							return [ "mode" => self::REPLACE, "html" => $html ];
 						}

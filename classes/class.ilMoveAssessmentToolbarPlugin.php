@@ -2,18 +2,18 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use srag\DIC\GallikerMods\DICTrait;
+use srag\DIC\MoveAssessmentToolbar\DICTrait;
 
 /**
- * Class ilGallikerModsPlugin
+ * Class ilMoveAssessmentToolbarPlugin
  *
  * @author studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
-class ilGallikerModsPlugin extends ilUserInterfaceHookPlugin {
+class ilMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin {
 
 	use DICTrait;
-	const PLUGIN_ID = "gallikermods";
-	const PLUGIN_NAME = "GallikerMods";
+	const PLUGIN_ID = "srmoasto";
+	const PLUGIN_NAME = "MoveAssessmentToolbar";
 	const PLUGIN_CLASS_NAME = self::class;
 	/**
 	 * @var self|null
@@ -34,7 +34,7 @@ class ilGallikerModsPlugin extends ilUserInterfaceHookPlugin {
 
 
 	/**
-	 * ilGallikerModsPlugin constructor
+	 * ilMoveAssessmentToolbarPlugin constructor
 	 */
 	public function __construct() {
 		parent::__construct();
