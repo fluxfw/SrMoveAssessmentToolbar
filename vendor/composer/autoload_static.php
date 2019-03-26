@@ -9,14 +9,14 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
     public static $prefixLengthsPsr4 = array (
         's' => 
         array (
-            'srag\\Plugins\\SrMoveAssessmentToolbar\\' => 35,
+            'srag\\Plugins\\SrMoveAssessmentToolbar\\' => 37,
             'srag\\LibrariesNamespaceChanger\\' => 31,
             'srag\\DIC\\' => 9,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'srag\\Plugins\\SrMoveAssessmentToolbar\\' =>
+        'srag\\Plugins\\SrMoveAssessmentToolbar\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -49,6 +49,7 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
         'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\Plugin' => __DIR__ . '/..' . '/srag/dic/src/Plugin/Plugin.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\PluginInterface' => __DIR__ . '/..' . '/srag/dic/src/Plugin/PluginInterface.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\Pluginable' => __DIR__ . '/..' . '/srag/dic/src/Plugin/Pluginable.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Util\\LibraryLanguageInstaller' => __DIR__ . '/..' . '/srag/dic/src/Util/LibraryLanguageInstaller.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\Version' => __DIR__ . '/..' . '/srag/dic/src/Version/Version.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\VersionInterface' => __DIR__ . '/..' . '/srag/dic/src/Version/VersionInterface.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
