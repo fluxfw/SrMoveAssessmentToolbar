@@ -1,7 +1,5 @@
 <?php
 
-require_once __DIR__ . "/../vendor/autoload.php";
-
 use srag\DIC\SrMoveAssessmentToolbar\DICTrait;
 
 /**
@@ -54,13 +52,13 @@ class ilSrMoveAssessmentToolbarUIHookGUI extends ilUIHookPluginGUI {
 
 					$container_start_pos = stripos($html, "<!-- BEGIN test_nav_toolbar -->");
 					if ($container_start_pos !== false) {
-						$html = substr($html, 0, ($container_start_pos - 1)) . file_get_contents(__DIR__ . "/../templates/test_toolbar_container_start.html")
-							. substr($html, $container_start_pos);
+						$html = substr($html, 0, ($container_start_pos - 1)) . file_get_contents(__DIR__
+								. "/../templates/test_toolbar_container_start.html") . substr($html, $container_start_pos);
 
 						$container_end_pos = stripos($html, "<!-- BEGIN closeform -->");
 						if ($container_end_pos !== false) {
-							$html = substr($html, 0, ($container_end_pos - 1)) . file_get_contents(__DIR__ . "/../templates/test_toolbar_container_end.html")
-								. substr($html, $container_end_pos);
+							$html = substr($html, 0, ($container_end_pos - 1)) . file_get_contents(__DIR__
+									. "/../templates/test_toolbar_container_end.html") . substr($html, $container_end_pos);
 
 							self::dic()->mainTemplate()->addCss(self::plugin()->directory() . "/css/srmoasto.css");
 
