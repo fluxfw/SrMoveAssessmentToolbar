@@ -9,42 +9,46 @@ use srag\DIC\SrMoveAssessmentToolbar\DICTrait;
  *
  * @author studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
-class ilSrMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin {
+class ilSrMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin
+{
 
-	use DICTrait;
-	const PLUGIN_ID = "srmoasto";
-	const PLUGIN_NAME = "SrMoveAssessmentToolbar";
-	const PLUGIN_CLASS_NAME = self::class;
-	/**
-	 * @var self|null
-	 */
-	protected static $instance = NULL;
-
-
-	/**
-	 * @return self
-	 */
-	public static function getInstance(): self {
-		if (self::$instance === NULL) {
-			self::$instance = new self();
-		}
-
-		return self::$instance;
-	}
+    use DICTrait;
+    const PLUGIN_ID = "srmoasto";
+    const PLUGIN_NAME = "SrMoveAssessmentToolbar";
+    const PLUGIN_CLASS_NAME = self::class;
+    /**
+     * @var self|null
+     */
+    protected static $instance = null;
 
 
-	/**
-	 * ilSrMoveAssessmentToolbarPlugin constructor
-	 */
-	public function __construct() {
-		parent::__construct();
-	}
+    /**
+     * @return self
+     */
+    public static function getInstance() : self
+    {
+        if (self::$instance === null) {
+            self::$instance = new self();
+        }
+
+        return self::$instance;
+    }
 
 
-	/**
-	 * @return string
-	 */
-	public function getPluginName(): string {
-		return self::PLUGIN_NAME;
-	}
+    /**
+     * ilSrMoveAssessmentToolbarPlugin constructor
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+
+    /**
+     * @return string
+     */
+    public function getPluginName() : string
+    {
+        return self::PLUGIN_NAME;
+    }
 }
