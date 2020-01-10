@@ -45,7 +45,7 @@ class ilSrMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin
 
 
     /**
-     * @return string
+     * @inheritDoc
      */
     public function getPluginName() : string
     {

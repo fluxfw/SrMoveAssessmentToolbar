@@ -31,17 +31,10 @@ class ilSrMoveAssessmentToolbarUIHookGUI extends ilUIHookPluginGUI
 
 
     /**
-     * @param string $a_comp
-     * @param string $a_part
-     * @param array  $a_par
-     *
-     * @return array
+     * @inheritDoc
      */
-    public function getHTML(/*string*/
-        $a_comp, /*string*/
-        $a_part, /*array*/
-        $a_par = []
-    ) : array {
+    public function getHTML(/*string*/ $a_comp, /*string*/ $a_part, /*array*/ $a_par = []) : array
+    {
         if (!self::$load[self::INIT]) {
 
             if (self::dic()->ctrl()->getCmdClass() === strtolower(ilTestPlayerFixedQuestionSetGUI::class)
