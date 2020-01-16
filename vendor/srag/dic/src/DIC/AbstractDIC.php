@@ -2,6 +2,10 @@
 
 namespace srag\DIC\SrMoveAssessmentToolbar\DIC;
 
+use ILIAS\DI\Container;
+use srag\DIC\SrMoveAssessmentToolbar\Database\DatabaseDetector;
+use srag\DIC\SrMoveAssessmentToolbar\Database\DatabaseInterface;
+
 /**
  * Class AbstractDIC
  *
@@ -9,12 +13,29 @@ namespace srag\DIC\SrMoveAssessmentToolbar\DIC;
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
-abstract class AbstractDIC implements DICInterface {
+abstract class AbstractDIC implements DICInterface
+{
 
-	/**
-	 * AbstractDIC constructor
-	 */
-	protected function __construct() {
+    /**
+     * @var Container
+     */
+    protected $dic;
 
-	}
+
+    /**
+     * @inheritDoc
+     */
+    public function __construct(Container &$dic)
+    {
+        $this->dic = &$dic;
+    }
+
+
+    /**
+     * @inheritDoc
+     */
+    public function database() : DatabaseInterface
+    {
+        return DatabaseDetector::getInstance($this->databaseCore());
+    }
 }
