@@ -57,7 +57,7 @@ class ilSrMoveAssessmentToolbarUIHookGUI extends ilUIHookPluginGUI
                             $html = substr($html, 0, ($container_end_pos - 1)) . file_get_contents(__DIR__
                                     . "/../templates/test_toolbar_container_end.html") . substr($html, $container_end_pos);
 
-                            self::dic()->mainTemplate()->addCss(self::plugin()->directory() . "/css/srmoasto.css");
+                            self::dic()->ui()->mainTemplate()->addCss(self::plugin()->directory() . "/css/srmoasto.css");
 
                             return ["mode" => self::REPLACE, "html" => $html];
                         }
