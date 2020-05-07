@@ -11,6 +11,7 @@ class ilSrMoveAssessmentToolbarUIHookGUI extends ilUIHookPluginGUI
 {
 
     use DICTrait;
+
     const PLUGIN_CLASS_NAME = ilSrMoveAssessmentToolbarPlugin::class;
     const INIT = "init";
     const TEST_TEMPLATE_ID = "Modules/Test/tpl.il_as_tst_output.html";

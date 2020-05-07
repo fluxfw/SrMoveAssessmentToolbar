@@ -13,6 +13,7 @@ class ilSrMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin
 {
 
     use DICTrait;
+
     const PLUGIN_ID = "srmoasto";
     const PLUGIN_NAME = "SrMoveAssessmentToolbar";
     const PLUGIN_CLASS_NAME = self::class;
