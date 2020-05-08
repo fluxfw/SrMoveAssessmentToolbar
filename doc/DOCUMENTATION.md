@@ -1,1 +1,1 @@
-## SrMoveAssessmentToolbar Documentation
+# SrMoveAssessmentToolbar ILIAS Plugin Documentation
