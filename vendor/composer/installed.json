@@ -1,23 +1,23 @@
 [
     {
         "name": "srag/dic",
-        "version": "v0.20.0",
-        "version_normalized": "0.20.0.0",
+        "version": "v0.21.0",
+        "version_normalized": "0.21.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/studer-raimann/DIC.git",
-            "reference": "94d039173ca2ec209dd88300cdcb415dbc8ba7a3"
+            "reference": "d56b98201b1b826802e7272fb5ee685b4a507394"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/studer-raimann/DIC/zipball/94d039173ca2ec209dd88300cdcb415dbc8ba7a3",
-            "reference": "94d039173ca2ec209dd88300cdcb415dbc8ba7a3",
+            "url": "https://api.github.com/repos/studer-raimann/DIC/zipball/d56b98201b1b826802e7272fb5ee685b4a507394",
+            "reference": "d56b98201b1b826802e7272fb5ee685b4a507394",
             "shasum": ""
         },
         "require": {
             "php": ">=7.0"
         },
-        "time": "2020-01-28T07:42:40+00:00",
+        "time": "2020-05-13T05:51:15+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -48,23 +48,23 @@
     },
     {
         "name": "srag/librariesnamespacechanger",
-        "version": "v0.7.0",
-        "version_normalized": "0.7.0.0",
+        "version": "v0.8.6",
+        "version_normalized": "0.8.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/studer-raimann/LibrariesNamespaceChanger.git",
-            "reference": "80afdd6f1d0690004e87edadcf120fb6d0740ebb"
+            "reference": "3cded4dd32c9ee09eeb782d84266fcf8ad01b4b1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/80afdd6f1d0690004e87edadcf120fb6d0740ebb",
-            "reference": "80afdd6f1d0690004e87edadcf120fb6d0740ebb",
+            "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/3cded4dd32c9ee09eeb782d84266fcf8ad01b4b1",
+            "reference": "3cded4dd32c9ee09eeb782d84266fcf8ad01b4b1",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.6"
+            "php": ">=7.0"
         },
-        "time": "2019-12-11T08:38:08+00:00",
+        "time": "2020-03-19T13:25:19+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
