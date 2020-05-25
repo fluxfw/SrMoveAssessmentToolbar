@@ -11,7 +11,7 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
         array (
             'srag\\Plugins\\SrMoveAssessmentToolbar\\' => 37,
             'srag\\LibrariesNamespaceChanger\\' => 31,
-            'srag\\DIC\\' => 9,
+            'srag\\DIC\\SrMoveAssessmentToolbar\\' => 33,
         ),
     );
 
@@ -24,7 +24,7 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
         array (
             0 => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src',
         ),
-        'srag\\DIC\\' => 
+        'srag\\DIC\\SrMoveAssessmentToolbar\\' => 
         array (
             0 => __DIR__ . '/..' . '/srag/dic/src',
         ),
