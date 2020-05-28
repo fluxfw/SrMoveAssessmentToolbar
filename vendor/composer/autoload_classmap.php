@@ -21,6 +21,7 @@ return array(
     'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\PdoContextHelper' => $vendorDir . '/srag/dic/src/Database/PdoContextHelper.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\PdoStatementContextHelper' => $vendorDir . '/srag/dic/src/Database/PdoStatementContextHelper.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Exception\\DICException' => $vendorDir . '/srag/dic/src/Exception/DICException.php',
+    'srag\\DIC\\SrMoveAssessmentToolbar\\Loader\\AbstractLoaderDetector' => $vendorDir . '/srag/dic/src/Loader/AbstractLoaderDetector.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Output\\Output' => $vendorDir . '/srag/dic/src/Output/Output.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Output\\OutputInterface' => $vendorDir . '/srag/dic/src/Output/OutputInterface.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\PHPVersionChecker' => $vendorDir . '/srag/dic/src/PHPVersionChecker.php',
