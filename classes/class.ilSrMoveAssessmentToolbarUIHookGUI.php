@@ -11,6 +11,7 @@ class ilSrMoveAssessmentToolbarUIHookGUI extends ilUIHookPluginGUI
 {
 
     use DICTrait;
+
     const PLUGIN_CLASS_NAME = ilSrMoveAssessmentToolbarPlugin::class;
     const INIT = "init";
     const TEST_TEMPLATE_ID = "Modules/Test/tpl.il_as_tst_output.html";
@@ -31,17 +32,10 @@ class ilSrMoveAssessmentToolbarUIHookGUI extends ilUIHookPluginGUI
 
 
     /**
-     * @param string $a_comp
-     * @param string $a_part
-     * @param array  $a_par
-     *
-     * @return array
+     * @inheritDoc
      */
-    public function getHTML(/*string*/
-        $a_comp, /*string*/
-        $a_part, /*array*/
-        $a_par = []
-    ) : array {
+    public function getHTML(/*string*/ $a_comp, /*string*/ $a_part, /*array*/ $a_par = []) : array
+    {
         if (!self::$load[self::INIT]) {
 
             if (self::dic()->ctrl()->getCmdClass() === strtolower(ilTestPlayerFixedQuestionSetGUI::class)
@@ -64,7 +58,7 @@ class ilSrMoveAssessmentToolbarUIHookGUI extends ilUIHookPluginGUI
                             $html = substr($html, 0, ($container_end_pos - 1)) . file_get_contents(__DIR__
                                     . "/../templates/test_toolbar_container_end.html") . substr($html, $container_end_pos);
 
-                            self::dic()->mainTemplate()->addCss(self::plugin()->directory() . "/css/srmoasto.css");
+                            self::dic()->ui()->mainTemplate()->addCss(self::plugin()->directory() . "/css/srmoasto.css");
 
                             return ["mode" => self::REPLACE, "html" => $html];
                         }

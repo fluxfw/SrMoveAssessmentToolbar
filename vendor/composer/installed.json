@@ -1,23 +1,23 @@
 [
     {
         "name": "srag/dic",
-        "version": "v0.15.4",
-        "version_normalized": "0.15.4.0",
+        "version": "v0.25.0",
+        "version_normalized": "0.25.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/studer-raimann/DIC.git",
-            "reference": "9f90f54f36a00a793fc08a7916dfdb06ebe3a76c"
+            "reference": "9b2638c7e8e97a99e5b76cf6d3a7d4140369cf43"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/studer-raimann/DIC/zipball/9f90f54f36a00a793fc08a7916dfdb06ebe3a76c",
-            "reference": "9f90f54f36a00a793fc08a7916dfdb06ebe3a76c",
+            "url": "https://api.github.com/repos/studer-raimann/DIC/zipball/9b2638c7e8e97a99e5b76cf6d3a7d4140369cf43",
+            "reference": "9b2638c7e8e97a99e5b76cf6d3a7d4140369cf43",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.6"
+            "php": ">=7.0"
         },
-        "time": "2019-03-26T13:15:41+00:00",
+        "time": "2020-05-28T05:38:40+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -48,23 +48,23 @@
     },
     {
         "name": "srag/librariesnamespacechanger",
-        "version": "v0.5.2",
-        "version_normalized": "0.5.2.0",
+        "version": "v0.8.6",
+        "version_normalized": "0.8.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/studer-raimann/LibrariesNamespaceChanger.git",
-            "reference": "4db267d97b5768d31429c14acde288181bfa4928"
+            "reference": "3cded4dd32c9ee09eeb782d84266fcf8ad01b4b1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/4db267d97b5768d31429c14acde288181bfa4928",
-            "reference": "4db267d97b5768d31429c14acde288181bfa4928",
+            "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/3cded4dd32c9ee09eeb782d84266fcf8ad01b4b1",
+            "reference": "3cded4dd32c9ee09eeb782d84266fcf8ad01b4b1",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.6"
+            "php": ">=7.0"
         },
-        "time": "2019-03-19T14:25:06+00:00",
+        "time": "2020-03-19T13:25:19+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {

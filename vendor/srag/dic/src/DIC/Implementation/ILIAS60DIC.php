@@ -20,6 +20,7 @@ use ilDBInterface;
 use ilErrorHandling;
 use ilExerciseFactory;
 use ilFavouritesDBRepository;
+use ilGlobalTemplateInterface;
 use ilHelpGUI;
 use ILIAS;
 use ILIAS\DI\BackgroundTaskServices;
@@ -60,22 +61,20 @@ use ilSetting;
 use ilStyleDefinition;
 use ilTabsGUI;
 use ilTaskService;
-use ilTemplate;
 use ilToolbarGUI;
 use ilTree;
 use ilUIService;
 use Session;
 use srag\DIC\SrMoveAssessmentToolbar\DIC\AbstractDIC;
-use srag\DIC\SrMoveAssessmentToolbar\Exception\DICException;
 
 /**
- * Class ILIAS54DIC
+ * Class ILIAS60DIC
  *
  * @package srag\DIC\SrMoveAssessmentToolbar\DIC\Implementation
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
-final class ILIAS54DIC extends AbstractDIC
+final class ILIAS60DIC extends AbstractDIC
 {
 
     /**
@@ -128,7 +127,7 @@ final class ILIAS54DIC extends AbstractDIC
      */
     public function bookingManager() : ilBookingManagerService
     {
-        throw new DICException("ilBookingManagerService not exists in ILIAS 5.4 or below!");
+        return $this->dic->bookingManager();
     }
 
 
@@ -137,7 +136,7 @@ final class ILIAS54DIC extends AbstractDIC
      */
     public function bookingObjUseBook() : ilObjUseBookDBRepository
     {
-        throw new DICException("ilObjUseBookDBRepository not exists in ILIAS 5.4 or below!");
+        return new ilObjUseBookDBRepository($this->database());
     }
 
 
@@ -146,7 +145,7 @@ final class ILIAS54DIC extends AbstractDIC
      */
     public function bookingReservation() : ilBookingReservationDBRepositoryFactory
     {
-        throw new DICException("ilBookingReservationDBRepositoryFactory not exists in ILIAS 5.4 or below!");
+        return new ilBookingReservationDBRepositoryFactory();
     }
 
 
@@ -236,7 +235,7 @@ final class ILIAS54DIC extends AbstractDIC
      */
     public function exercise() : ilExerciseFactory
     {
-        throw new DICException("ilExerciseFactory not exists in ILIAS 5.4 or below!");
+        return $this->dic->exercise();
     }
 
 
@@ -245,7 +244,7 @@ final class ILIAS54DIC extends AbstractDIC
      */
     public function favourites() : ilFavouritesDBRepository
     {
-        throw new DICException("ilFavouritesDBRepository not exists in ILIAS 5.4 or below!");
+        return new ilFavouritesDBRepository();
     }
 
 
@@ -416,7 +415,7 @@ final class ILIAS54DIC extends AbstractDIC
      *
      * @deprecated Please use `self::dic()->ui()->mainTemplate()`
      */
-    public function mainTemplate() : ilTemplate
+    public function mainTemplate() : ilGlobalTemplateInterface
     {
         return $this->dic->ui()->mainTemplate();
     }
@@ -472,7 +471,7 @@ final class ILIAS54DIC extends AbstractDIC
      */
     public function question() : ilAsqFactory
     {
-        throw new DICException("ilAsqFactory not exists in ILIAS 5.4 or below!");
+        return $this->dic->question();
     }
 
 
@@ -523,7 +522,7 @@ final class ILIAS54DIC extends AbstractDIC
      */
     public function refinery() : RefineryFactory
     {
-        throw new DICException("RefineryFactory not exists in ILIAS 5.4 or below!");
+        return $this->dic->refinery();
     }
 
 
@@ -595,7 +594,7 @@ final class ILIAS54DIC extends AbstractDIC
      */
     public function task() : ilTaskService
     {
-        throw new DICException("ilTaskService not exists in ILIAS 5.4 or below!");
+        return $this->dic->task();
     }
 
 
@@ -642,7 +641,7 @@ final class ILIAS54DIC extends AbstractDIC
      */
     public function uiService() : ilUIService
     {
-        throw new DICException("ilUIService not exists in ILIAS 5.4 or below!");
+        return $this->dic->uiService();
     }
 
 
