@@ -14,13 +14,22 @@ class ilSrMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin
 
     use DICTrait;
 
+    const PLUGIN_CLASS_NAME = self::class;
     const PLUGIN_ID = "srmoasto";
     const PLUGIN_NAME = "SrMoveAssessmentToolbar";
-    const PLUGIN_CLASS_NAME = self::class;
     /**
      * @var self|null
      */
     protected static $instance = null;
+
+
+    /**
+     * ilSrMoveAssessmentToolbarPlugin constructor
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
 
     /**
@@ -33,15 +42,6 @@ class ilSrMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin
         }
 
         return self::$instance;
-    }
-
-
-    /**
-     * ilSrMoveAssessmentToolbarPlugin constructor
-     */
-    public function __construct()
-    {
-        parent::__construct();
     }
 
 
