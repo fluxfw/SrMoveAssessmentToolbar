@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'ilSrMoveAssessmentToolbarConfigGUI' => $baseDir . '/classes/class.ilSrMoveAssessmentToolbarConfigGUI.php',
     'ilSrMoveAssessmentToolbarPlugin' => $baseDir . '/classes/class.ilSrMoveAssessmentToolbarPlugin.php',
     'ilSrMoveAssessmentToolbarUIHookGUI' => $baseDir . '/classes/class.ilSrMoveAssessmentToolbarUIHookGUI.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\DICStatic' => $vendorDir . '/srag/dic/src/DICStatic.php',
@@ -20,6 +21,7 @@ return array(
     'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\DatabaseInterface' => $vendorDir . '/srag/dic/src/Database/DatabaseInterface.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\PdoContextHelper' => $vendorDir . '/srag/dic/src/Database/PdoContextHelper.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\PdoStatementContextHelper' => $vendorDir . '/srag/dic/src/Database/PdoStatementContextHelper.php',
+    'srag\\DIC\\SrMoveAssessmentToolbar\\DevTools\\DevToolsCtrl' => $vendorDir . '/srag/dic/src/DevTools/class.DevToolsCtrl.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Exception\\DICException' => $vendorDir . '/srag/dic/src/Exception/DICException.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Loader\\AbstractLoaderDetector' => $vendorDir . '/srag/dic/src/Loader/AbstractLoaderDetector.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Output\\Output' => $vendorDir . '/srag/dic/src/Output/Output.php',
@@ -31,8 +33,10 @@ return array(
     'srag\\DIC\\SrMoveAssessmentToolbar\\Util\\LibraryLanguageInstaller' => $vendorDir . '/srag/dic/src/Util/LibraryLanguageInstaller.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\Version' => $vendorDir . '/srag/dic/src/Version/Version.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\VersionInterface' => $vendorDir . '/srag/dic/src/Version/VersionInterface.php',
+    'srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml' => $vendorDir . '/srag/librariesnamespacechanger/src/GeneratePluginPhpAndXml.php',
     'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => $vendorDir . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
     'srag\\LibrariesNamespaceChanger\\PHP72Backport' => $vendorDir . '/srag/librariesnamespacechanger/src/PHP72Backport.php',
     'srag\\LibrariesNamespaceChanger\\PHP7Backport' => $vendorDir . '/srag/librariesnamespacechanger/src/PHP7Backport.php',
     'srag\\LibrariesNamespaceChanger\\RemovePHP72Backport' => $vendorDir . '/srag/librariesnamespacechanger/src/RemovePHP72Backport.php',
+    'srag\\LibrariesNamespaceChanger\\UpdatePluginReadme' => $vendorDir . '/srag/librariesnamespacechanger/src/UpdatePluginReadme.php',
 );

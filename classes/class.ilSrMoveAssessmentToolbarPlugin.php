@@ -2,6 +2,7 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
+use srag\DIC\SrMoveAssessmentToolbar\DevTools\DevToolsCtrl;
 use srag\DIC\SrMoveAssessmentToolbar\DICTrait;
 
 /**
@@ -14,13 +15,22 @@ class ilSrMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin
 
     use DICTrait;
 
+    const PLUGIN_CLASS_NAME = self::class;
     const PLUGIN_ID = "srmoasto";
     const PLUGIN_NAME = "SrMoveAssessmentToolbar";
-    const PLUGIN_CLASS_NAME = self::class;
     /**
      * @var self|null
      */
     protected static $instance = null;
+
+
+    /**
+     * ilSrMoveAssessmentToolbarPlugin constructor
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
 
     /**
@@ -37,19 +47,21 @@ class ilSrMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin
 
 
     /**
-     * ilSrMoveAssessmentToolbarPlugin constructor
+     * @inheritDoc
      */
-    public function __construct()
+    public function getPluginName() : string
     {
-        parent::__construct();
+        return self::PLUGIN_NAME;
     }
 
 
     /**
      * @inheritDoc
      */
-    public function getPluginName() : string
+    public function updateLanguages(/*?array*/ $a_lang_keys = null) : void
     {
-        return self::PLUGIN_NAME;
+        parent::updateLanguages($a_lang_keys);
+
+        DevToolsCtrl::installLanguages(self::plugin());
     }
 }

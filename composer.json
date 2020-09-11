@@ -1,6 +1,14 @@
 {
   "name": "srag/plugins/srmoveassessmenttoolbar",
   "description": "",
+  "version": "1.2.1",
+  "ilias_plugin": {
+    "id": "srmoasto",
+    "name": "SrMoveAssessmentToolbar",
+    "ilias_min_version": "5.4.0",
+    "ilias_max_version": "6.999",
+    "slot": "Services/UIComponent/UserInterfaceHook"
+  },
   "type": "project",
   "keywords": [
     "ILIAS",
@@ -30,6 +38,9 @@
     },
     "classmap": [
       "classes/"
+    ],
+    "files": [
+      "vendor/srag/dic/src/PHPVersionChecker.php"
     ]
   },
   "config": {
@@ -40,7 +51,9 @@
   "scripts": {
     "pre-autoload-dump": [
       "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
-      "srag\\LibrariesNamespaceChanger\\PHP72Backport::PHP72Backport"
+      "srag\\LibrariesNamespaceChanger\\PHP72Backport::PHP72Backport",
+      "srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
+      "srag\\LibrariesNamespaceChanger\\UpdatePluginReadme::updatePluginReadme"
     ]
   }
 }

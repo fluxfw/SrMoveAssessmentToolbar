@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f70b0c5853fb04388aa49fa7fe653393",
+    "content-hash": "74b4496c839460c15c3605cb875260f6",
     "packages": [
         {
             "name": "srag/dic",
-            "version": "v0.25.0",
+            "version": "v0.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studer-raimann/DIC.git",
-                "reference": "9b2638c7e8e97a99e5b76cf6d3a7d4140369cf43"
+                "reference": "51afc373d1c9c8ee0fd26c381ed1a81e295afb3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studer-raimann/DIC/zipball/9b2638c7e8e97a99e5b76cf6d3a7d4140369cf43",
-                "reference": "9b2638c7e8e97a99e5b76cf6d3a7d4140369cf43",
+                "url": "https://api.github.com/repos/studer-raimann/DIC/zipball/51afc373d1c9c8ee0fd26c381ed1a81e295afb3f",
+                "reference": "51afc373d1c9c8ee0fd26c381ed1a81e295afb3f",
                 "shasum": ""
             },
             "require": {
@@ -49,20 +49,20 @@
                 "globals",
                 "trait"
             ],
-            "time": "2020-05-28T05:38:40+00:00"
+            "time": "2020-09-10T10:49:18+00:00"
         },
         {
             "name": "srag/librariesnamespacechanger",
-            "version": "v0.8.6",
+            "version": "v0.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studer-raimann/LibrariesNamespaceChanger.git",
-                "reference": "3cded4dd32c9ee09eeb782d84266fcf8ad01b4b1"
+                "reference": "d0bf77414b86c2e830e1592f73f37a03406f3266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/3cded4dd32c9ee09eeb782d84266fcf8ad01b4b1",
-                "reference": "3cded4dd32c9ee09eeb782d84266fcf8ad01b4b1",
+                "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/d0bf77414b86c2e830e1592f73f37a03406f3266",
+                "reference": "d0bf77414b86c2e830e1592f73f37a03406f3266",
                 "shasum": ""
             },
             "require": {
@@ -92,7 +92,7 @@
                 "ILIAS",
                 "libraries"
             ],
-            "time": "2020-03-19T13:25:19+00:00"
+            "time": "2020-09-03T12:54:11+00:00"
         }
     ],
     "packages-dev": [],
