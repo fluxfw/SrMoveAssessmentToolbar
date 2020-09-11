@@ -2,6 +2,7 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
+use srag\DIC\SrMoveAssessmentToolbar\DevTools\DevToolsCtrl;
 use srag\DIC\SrMoveAssessmentToolbar\DICTrait;
 
 /**
@@ -51,5 +52,16 @@ class ilSrMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin
     public function getPluginName() : string
     {
         return self::PLUGIN_NAME;
+    }
+
+
+    /**
+     * @inheritDoc
+     */
+    public function updateLanguages(/*?array*/ $a_lang_keys = null) : void
+    {
+        parent::updateLanguages($a_lang_keys);
+
+        DevToolsCtrl::installLanguages(self::plugin());
     }
 }

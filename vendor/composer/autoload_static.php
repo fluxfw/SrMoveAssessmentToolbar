@@ -35,6 +35,7 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
     );
 
     public static $classMap = array (
+        'ilSrMoveAssessmentToolbarConfigGUI' => __DIR__ . '/../..' . '/classes/class.ilSrMoveAssessmentToolbarConfigGUI.php',
         'ilSrMoveAssessmentToolbarPlugin' => __DIR__ . '/../..' . '/classes/class.ilSrMoveAssessmentToolbarPlugin.php',
         'ilSrMoveAssessmentToolbarUIHookGUI' => __DIR__ . '/../..' . '/classes/class.ilSrMoveAssessmentToolbarUIHookGUI.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\DICStatic' => __DIR__ . '/..' . '/srag/dic/src/DICStatic.php',
@@ -49,6 +50,7 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
         'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\DatabaseInterface' => __DIR__ . '/..' . '/srag/dic/src/Database/DatabaseInterface.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\PdoContextHelper' => __DIR__ . '/..' . '/srag/dic/src/Database/PdoContextHelper.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\PdoStatementContextHelper' => __DIR__ . '/..' . '/srag/dic/src/Database/PdoStatementContextHelper.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\DevTools\\DevToolsCtrl' => __DIR__ . '/..' . '/srag/dic/src/DevTools/class.DevToolsCtrl.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Exception\\DICException' => __DIR__ . '/..' . '/srag/dic/src/Exception/DICException.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Loader\\AbstractLoaderDetector' => __DIR__ . '/..' . '/srag/dic/src/Loader/AbstractLoaderDetector.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Output\\Output' => __DIR__ . '/..' . '/srag/dic/src/Output/Output.php',
