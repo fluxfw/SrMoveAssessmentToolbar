@@ -4,10 +4,11 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
+class ComposerStaticInitdc467d51615b083cb383723e513abf00
 {
     public static $files = array (
         '62e8bb658e8638e5d37206669a517ec0' => __DIR__ . '/..' . '/srag/dic/src/PHPVersionChecker.php',
+        '9db430a056c8a71c7a6d91653afe0e22' => __DIR__ . '/..' . '/srag/dic/src/Ilias7PreWarn.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -15,7 +16,7 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
         array (
             'srag\\Plugins\\SrMoveAssessmentToolbar\\' => 37,
             'srag\\LibrariesNamespaceChanger\\' => 31,
-            'srag\\DIC\\SrMoveAssessmentToolbar\\' => 33,
+            'srag\\DIC\\' => 9,
         ),
     );
 
@@ -28,7 +29,7 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
         array (
             0 => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src',
         ),
-        'srag\\DIC\\SrMoveAssessmentToolbar\\' => 
+        'srag\\DIC\\' => 
         array (
             0 => __DIR__ . '/..' . '/srag/dic/src',
         ),
@@ -52,6 +53,7 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
         'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\PdoStatementContextHelper' => __DIR__ . '/..' . '/srag/dic/src/Database/PdoStatementContextHelper.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\DevTools\\DevToolsCtrl' => __DIR__ . '/..' . '/srag/dic/src/DevTools/class.DevToolsCtrl.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Exception\\DICException' => __DIR__ . '/..' . '/srag/dic/src/Exception/DICException.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Ilias7PreWarn' => __DIR__ . '/..' . '/srag/dic/src/Ilias7PreWarn.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Loader\\AbstractLoaderDetector' => __DIR__ . '/..' . '/srag/dic/src/Loader/AbstractLoaderDetector.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Output\\Output' => __DIR__ . '/..' . '/srag/dic/src/Output/Output.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Output\\OutputInterface' => __DIR__ . '/..' . '/srag/dic/src/Output/OutputInterface.php',
@@ -73,9 +75,9 @@ class ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit3e19ccf6d2e8f0a12c5817ccca8b8846::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitdc467d51615b083cb383723e513abf00::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitdc467d51615b083cb383723e513abf00::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitdc467d51615b083cb383723e513abf00::$classMap;
 
         }, null, ClassLoader::class);
     }
