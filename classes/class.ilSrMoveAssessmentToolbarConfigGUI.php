@@ -2,7 +2,7 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use srag\DIC\SrMoveAssessmentToolbar\DevTools\DevToolsCtrl;
+use srag\DevTools\SrMoveAssessmentToolbar\DevToolsCtrl;
 use srag\DIC\SrMoveAssessmentToolbar\DICTrait;
 
 /**
@@ -10,7 +10,7 @@ use srag\DIC\SrMoveAssessmentToolbar\DICTrait;
  *
  * @author            studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  *
- * @ilCtrl_isCalledBy srag\DIC\SrMoveAssessmentToolbar\DevTools\DevToolsCtrl: ilSrMoveAssessmentToolbarConfigGUI
+ * @ilCtrl_isCalledBy srag\DevTools\SrMoveAssessmentToolbar\DevToolsCtrl: ilSrMoveAssessmentToolbarConfigGUI
  */
 class ilSrMoveAssessmentToolbarConfigGUI extends ilPluginConfigGUI
 {
