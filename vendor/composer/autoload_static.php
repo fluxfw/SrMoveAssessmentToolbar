@@ -19,7 +19,7 @@ class ComposerStaticInitdc467d51615b083cb383723e513abf00
             'srag\\LibrariesNamespaceChanger\\' => 31,
             'srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\' => 55,
             'srag\\DevTools\\SrMoveAssessmentToolbar\\' => 38,
-            'srag\\DIC\\' => 9,
+            'srag\\DIC\\SrMoveAssessmentToolbar\\' => 33,
         ),
     );
 
@@ -44,7 +44,7 @@ class ComposerStaticInitdc467d51615b083cb383723e513abf00
         array (
             0 => __DIR__ . '/..' . '/srag/devtools/src',
         ),
-        'srag\\DIC\\' => 
+        'srag\\DIC\\SrMoveAssessmentToolbar\\' => 
         array (
             0 => __DIR__ . '/..' . '/srag/dic/src',
         ),
