@@ -9,7 +9,7 @@ use ilPluginConfigGUI;
 use ilUtil;
 use srag\DIC\SrMoveAssessmentToolbar\DICTrait;
 use srag\DIC\SrMoveAssessmentToolbar\Plugin\PluginInterface;
-use srag\DIC\SrMoveAssessmentToolbar\Util\LibraryLanguageInstaller;
+use srag\LibraryLanguageInstaller\SrMoveAssessmentToolbar\LibraryLanguageInstaller;
 
 /**
  * Class DevToolsCtrl

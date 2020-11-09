@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\DIC\SrMoveAssessmentToolbar\Util;
+namespace srag\LibraryLanguageInstaller\SrMoveAssessmentToolbar;
 
 use ilDBConstants;
 use ilGlobalCache;
@@ -12,7 +12,7 @@ use srag\DIC\SrMoveAssessmentToolbar\Plugin\PluginInterface;
 /**
  * Class LibraryLanguageInstaller
  *
- * @package srag\DIC\SrMoveAssessmentToolbar\Util
+ * @package srag\LibraryLanguageInstaller\SrMoveAssessmentToolbar
  *
  * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
