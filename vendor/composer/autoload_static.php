@@ -54,6 +54,7 @@ class ComposerStaticInitdc467d51615b083cb383723e513abf00
         'ilSrMoveAssessmentToolbarConfigGUI' => __DIR__ . '/../..' . '/classes/class.ilSrMoveAssessmentToolbarConfigGUI.php',
         'ilSrMoveAssessmentToolbarPlugin' => __DIR__ . '/../..' . '/classes/class.ilSrMoveAssessmentToolbarPlugin.php',
         'ilSrMoveAssessmentToolbarUIHookGUI' => __DIR__ . '/../..' . '/classes/class.ilSrMoveAssessmentToolbarUIHookGUI.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Cron\\FixUITemplateInCronContext' => __DIR__ . '/..' . '/srag/dic/src/Cron/FixUITemplateInCronContext.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\DICStatic' => __DIR__ . '/..' . '/srag/dic/src/DICStatic.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\DICStaticInterface' => __DIR__ . '/..' . '/srag/dic/src/DICStaticInterface.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\DICTrait' => __DIR__ . '/..' . '/srag/dic/src/DICTrait.php',

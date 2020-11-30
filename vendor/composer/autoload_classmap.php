@@ -9,6 +9,7 @@ return array(
     'ilSrMoveAssessmentToolbarConfigGUI' => $baseDir . '/classes/class.ilSrMoveAssessmentToolbarConfigGUI.php',
     'ilSrMoveAssessmentToolbarPlugin' => $baseDir . '/classes/class.ilSrMoveAssessmentToolbarPlugin.php',
     'ilSrMoveAssessmentToolbarUIHookGUI' => $baseDir . '/classes/class.ilSrMoveAssessmentToolbarUIHookGUI.php',
+    'srag\\DIC\\SrMoveAssessmentToolbar\\Cron\\FixUITemplateInCronContext' => $vendorDir . '/srag/dic/src/Cron/FixUITemplateInCronContext.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\DICStatic' => $vendorDir . '/srag/dic/src/DICStatic.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\DICStaticInterface' => $vendorDir . '/srag/dic/src/DICStaticInterface.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\DICTrait' => $vendorDir . '/srag/dic/src/DICTrait.php',
