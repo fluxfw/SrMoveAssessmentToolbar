@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "srag/devtools",
-            "version": "1.2.4",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studer-raimann/DevTools.git",
-                "reference": "8d10dc999437d8831dee3d4498870ea5fcc2e79c"
+                "reference": "c053a7772c5a591127610158c0b3ad8c355485f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studer-raimann/DevTools/zipball/8d10dc999437d8831dee3d4498870ea5fcc2e79c",
-                "reference": "8d10dc999437d8831dee3d4498870ea5fcc2e79c",
+                "url": "https://api.github.com/repos/studer-raimann/DevTools/zipball/c053a7772c5a591127610158c0b3ad8c355485f7",
+                "reference": "c053a7772c5a591127610158c0b3ad8c355485f7",
                 "shasum": ""
             },
             "require": {
@@ -65,7 +65,7 @@
                 "plugin",
                 "tools"
             ],
-            "time": "2021-01-21T13:41:08+00:00"
+            "time": "2021-01-29T13:58:23+00:00"
         },
         {
             "name": "srag/dic",
@@ -98,7 +98,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\DIC\\": "src/"
+                    "srag\\DIC\\SrMoveAssessmentToolbar\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -147,7 +147,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\GeneratePluginInfosHelper\\": "src/"
+                    "srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
