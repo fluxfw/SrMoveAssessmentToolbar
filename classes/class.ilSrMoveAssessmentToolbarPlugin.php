@@ -2,7 +2,7 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use srag\DIC\SrMoveAssessmentToolbar\DevTools\DevToolsCtrl;
+use srag\DevTools\SrMoveAssessmentToolbar\DevToolsCtrl;
 use srag\DIC\SrMoveAssessmentToolbar\DICTrait;
 
 /**
