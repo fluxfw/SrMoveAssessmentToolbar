@@ -147,7 +147,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\GeneratePluginInfosHelper\\": "src/"
+                    "srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
