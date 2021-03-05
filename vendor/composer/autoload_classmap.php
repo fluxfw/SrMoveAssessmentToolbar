@@ -30,6 +30,7 @@ return array(
     'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\Plugin' => $vendorDir . '/srag/dic/src/Plugin/Plugin.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\PluginInterface' => $vendorDir . '/srag/dic/src/Plugin/PluginInterface.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\Pluginable' => $vendorDir . '/srag/dic/src/Plugin/Pluginable.php',
+    'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\PluginVersionParameter' => $vendorDir . '/srag/dic/src/Version/PluginVersionParameter.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\Version' => $vendorDir . '/srag/dic/src/Version/Version.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\VersionInterface' => $vendorDir . '/srag/dic/src/Version/VersionInterface.php',
     'srag\\DevTools\\SrMoveAssessmentToolbar\\DevToolsCtrl' => $vendorDir . '/srag/devtools/src/class.DevToolsCtrl.php',

@@ -74,6 +74,7 @@ class ComposerStaticInitdc467d51615b083cb383723e513abf00
         'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\Plugin' => __DIR__ . '/..' . '/srag/dic/src/Plugin/Plugin.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\PluginInterface' => __DIR__ . '/..' . '/srag/dic/src/Plugin/PluginInterface.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Plugin\\Pluginable' => __DIR__ . '/..' . '/srag/dic/src/Plugin/Pluginable.php',
+        'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\PluginVersionParameter' => __DIR__ . '/..' . '/srag/dic/src/Version/PluginVersionParameter.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\Version' => __DIR__ . '/..' . '/srag/dic/src/Version/Version.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\VersionInterface' => __DIR__ . '/..' . '/srag/dic/src/Version/VersionInterface.php',
         'srag\\DevTools\\SrMoveAssessmentToolbar\\DevToolsCtrl' => __DIR__ . '/..' . '/srag/devtools/src/class.DevToolsCtrl.php',

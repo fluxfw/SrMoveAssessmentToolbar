@@ -69,16 +69,16 @@
         },
         {
             "name": "srag/dic",
-            "version": "0.31.5",
+            "version": "0.32.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxfw/DIC.git",
-                "reference": "cb78c7a3db369b434e29d65e873df9c6e05ec6ef"
+                "reference": "d12c2fb65081ea9b277606c44c5b15e4cc11e017"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxfw/DIC/zipball/cb78c7a3db369b434e29d65e873df9c6e05ec6ef",
-                "reference": "cb78c7a3db369b434e29d65e873df9c6e05ec6ef",
+                "url": "https://api.github.com/repos/fluxfw/DIC/zipball/d12c2fb65081ea9b277606c44c5b15e4cc11e017",
+                "reference": "d12c2fb65081ea9b277606c44c5b15e4cc11e017",
                 "shasum": ""
             },
             "require": {
@@ -98,7 +98,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\DIC\\SrMoveAssessmentToolbar\\": "src/"
+                    "srag\\DIC\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -121,7 +121,7 @@
                 "globals",
                 "trait"
             ],
-            "time": "2021-03-03T09:46:07+00:00"
+            "time": "2021-03-05T11:06:12+00:00"
         },
         {
             "name": "srag/generateplugininfoshelper",
@@ -147,7 +147,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\GeneratePluginInfosHelper\\": "src/"
+                    "srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
