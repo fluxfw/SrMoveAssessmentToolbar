@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c8dcabec994bd029ece43d2507a80d1",
+    "content-hash": "4bffe5818400470803576aaae710ac1a",
     "packages": [
         {
             "name": "srag/devtools",
-            "version": "1.2.6",
+            "version": "1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxfw/DevTools.git",
-                "reference": "39731508c607a0b7b4800d998cc6a0cb336f1ab0"
+                "reference": "73de451e2e4f05e36381977e3f1da51ba7175e53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxfw/DevTools/zipball/39731508c607a0b7b4800d998cc6a0cb336f1ab0",
-                "reference": "39731508c607a0b7b4800d998cc6a0cb336f1ab0",
+                "url": "https://api.github.com/repos/fluxfw/DevTools/zipball/73de451e2e4f05e36381977e3f1da51ba7175e53",
+                "reference": "73de451e2e4f05e36381977e3f1da51ba7175e53",
                 "shasum": ""
             },
             "require": {
@@ -34,12 +34,12 @@
                     "ilias_min_version": "5.4.0",
                     "ilias_max_version": "6.999"
                 },
-                "generate_plugin_readme_template": "SRAG_ILIAS_LIBRARY",
+                "generate_plugin_readme_template": "ILIAS_LIBRARY",
                 "long_description_template": "src/LONG_DESCRIPTION.md"
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\DevTools\\SrMoveAssessmentToolbar\\": "src/"
+                    "srag\\DevTools\\": "src/"
                 },
                 "classmap": [
                     "src/class.DevToolsCtrl.php"
@@ -65,20 +65,20 @@
                 "plugin",
                 "tools"
             ],
-            "time": "2021-03-03T09:47:36+00:00"
+            "time": "2021-03-23T12:50:24+00:00"
         },
         {
             "name": "srag/dic",
-            "version": "0.32.1",
+            "version": "0.32.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxfw/DIC.git",
-                "reference": "d12c2fb65081ea9b277606c44c5b15e4cc11e017"
+                "reference": "0f16b0d52193cb7b094b8631e9c3b2367a061cac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxfw/DIC/zipball/d12c2fb65081ea9b277606c44c5b15e4cc11e017",
-                "reference": "d12c2fb65081ea9b277606c44c5b15e4cc11e017",
+                "url": "https://api.github.com/repos/fluxfw/DIC/zipball/0f16b0d52193cb7b094b8631e9c3b2367a061cac",
+                "reference": "0f16b0d52193cb7b094b8631e9c3b2367a061cac",
                 "shasum": ""
             },
             "require": {
@@ -93,12 +93,12 @@
                     "ilias_min_version": "5.4.0",
                     "ilias_max_version": "6.999"
                 },
-                "generate_plugin_readme_template": "SRAG_ILIAS_LIBRARY",
+                "generate_plugin_readme_template": "ILIAS_LIBRARY",
                 "long_description_template": "src/LONG_DESCRIPTION.md"
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\DIC\\SrMoveAssessmentToolbar\\": "src/"
+                    "srag\\DIC\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -121,20 +121,20 @@
                 "globals",
                 "trait"
             ],
-            "time": "2021-03-05T11:06:12+00:00"
+            "time": "2021-03-23T12:50:35+00:00"
         },
         {
             "name": "srag/generateplugininfoshelper",
-            "version": "2.10.1",
+            "version": "2.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxfw/GeneratePluginInfosHelper.git",
-                "reference": "fe1a056d91a98442b8dd777aa2a9b0e8d00bd203"
+                "reference": "53b1ad2d1ccf3e90182262b9421024fe11ee00f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxfw/GeneratePluginInfosHelper/zipball/fe1a056d91a98442b8dd777aa2a9b0e8d00bd203",
-                "reference": "fe1a056d91a98442b8dd777aa2a9b0e8d00bd203",
+                "url": "https://api.github.com/repos/fluxfw/GeneratePluginInfosHelper/zipball/53b1ad2d1ccf3e90182262b9421024fe11ee00f9",
+                "reference": "53b1ad2d1ccf3e90182262b9421024fe11ee00f9",
                 "shasum": ""
             },
             "require": {
@@ -142,12 +142,12 @@
             },
             "type": "library",
             "extra": {
-                "generate_plugin_readme_template": "SRAG_LIBRARY",
+                "generate_plugin_readme_template": "LIBRARY",
                 "long_description_template": "src/LONG_DESCRIPTION.md"
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\": "src/"
+                    "srag\\GeneratePluginInfosHelper\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -170,20 +170,20 @@
                 "helper",
                 "plugin"
             ],
-            "time": "2021-03-05T14:06:43+00:00"
+            "time": "2021-03-23T12:25:52+00:00"
         },
         {
             "name": "srag/librariesnamespacechanger",
-            "version": "0.15.1",
+            "version": "0.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxfw/LibrariesNamespaceChanger.git",
-                "reference": "4d9567c0e83f325849e948960382c9cde612d474"
+                "reference": "cd3b0b6340fdc12ba7bfde0bcab3079d3b740483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxfw/LibrariesNamespaceChanger/zipball/4d9567c0e83f325849e948960382c9cde612d474",
-                "reference": "4d9567c0e83f325849e948960382c9cde612d474",
+                "url": "https://api.github.com/repos/fluxfw/LibrariesNamespaceChanger/zipball/cd3b0b6340fdc12ba7bfde0bcab3079d3b740483",
+                "reference": "cd3b0b6340fdc12ba7bfde0bcab3079d3b740483",
                 "shasum": ""
             },
             "require": {
@@ -194,7 +194,7 @@
             },
             "type": "library",
             "extra": {
-                "generate_plugin_readme_template": "SRAG_LIBRARY",
+                "generate_plugin_readme_template": "LIBRARY",
                 "long_description_template": "src/LONG_DESCRIPTION.md"
             },
             "autoload": {
@@ -221,20 +221,20 @@
                 "libraries",
                 "namespace"
             ],
-            "time": "2021-03-03T09:56:22+00:00"
+            "time": "2021-03-23T12:47:58+00:00"
         },
         {
             "name": "srag/librarylanguageinstaller",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxfw/LibraryLanguageInstaller.git",
-                "reference": "0de37a9ae176e8b086d83d6b564902f08f1b81c7"
+                "reference": "9c047ae156e503186169dc91a0c4a5910a0cccb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxfw/LibraryLanguageInstaller/zipball/0de37a9ae176e8b086d83d6b564902f08f1b81c7",
-                "reference": "0de37a9ae176e8b086d83d6b564902f08f1b81c7",
+                "url": "https://api.github.com/repos/fluxfw/LibraryLanguageInstaller/zipball/9c047ae156e503186169dc91a0c4a5910a0cccb0",
+                "reference": "9c047ae156e503186169dc91a0c4a5910a0cccb0",
                 "shasum": ""
             },
             "require": {
@@ -250,12 +250,12 @@
                     "ilias_min_version": "5.4.0",
                     "ilias_max_version": "6.999"
                 },
-                "generate_plugin_readme_template": "SRAG_ILIAS_LIBRARY",
+                "generate_plugin_readme_template": "ILIAS_LIBRARY",
                 "long_description_template": "src/LONG_DESCRIPTION.md"
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\LibraryLanguageInstaller\\SrMoveAssessmentToolbar\\": "src/"
+                    "srag\\LibraryLanguageInstaller\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -278,7 +278,7 @@
                 "language",
                 "library"
             ],
-            "time": "2021-03-03T09:55:23+00:00"
+            "time": "2021-03-23T12:48:08+00:00"
         }
     ],
     "packages-dev": [],
