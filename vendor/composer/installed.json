@@ -1,17 +1,17 @@
 [
     {
         "name": "srag/devtools",
-        "version": "1.2.7",
-        "version_normalized": "1.2.7.0",
+        "version": "1.2.9",
+        "version_normalized": "1.2.9.0",
         "source": {
             "type": "git",
             "url": "https://github.com/fluxfw/DevTools.git",
-            "reference": "73de451e2e4f05e36381977e3f1da51ba7175e53"
+            "reference": "664fb2a6166909b6d8366b1cc643fc236b2c80f4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fluxfw/DevTools/zipball/73de451e2e4f05e36381977e3f1da51ba7175e53",
-            "reference": "73de451e2e4f05e36381977e3f1da51ba7175e53",
+            "url": "https://api.github.com/repos/fluxfw/DevTools/zipball/664fb2a6166909b6d8366b1cc643fc236b2c80f4",
+            "reference": "664fb2a6166909b6d8366b1cc643fc236b2c80f4",
             "shasum": ""
         },
         "require": {
@@ -22,7 +22,7 @@
         "require-dev": {
             "srag/generateplugininfoshelper": ">=0.1.0"
         },
-        "time": "2021-03-23T12:50:24+00:00",
+        "time": "2021-03-29T07:11:30+00:00",
         "type": "library",
         "extra": {
             "ilias_plugin": {
