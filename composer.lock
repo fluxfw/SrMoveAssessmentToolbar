@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4bffe5818400470803576aaae710ac1a",
+    "content-hash": "5158a20a264786c33308fc9534d2b01f",
     "packages": [
         {
             "name": "srag/devtools",
-            "version": "1.2.7",
+            "version": "1.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxfw/DevTools.git",
-                "reference": "73de451e2e4f05e36381977e3f1da51ba7175e53"
+                "reference": "664fb2a6166909b6d8366b1cc643fc236b2c80f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxfw/DevTools/zipball/73de451e2e4f05e36381977e3f1da51ba7175e53",
-                "reference": "73de451e2e4f05e36381977e3f1da51ba7175e53",
+                "url": "https://api.github.com/repos/fluxfw/DevTools/zipball/664fb2a6166909b6d8366b1cc643fc236b2c80f4",
+                "reference": "664fb2a6166909b6d8366b1cc643fc236b2c80f4",
                 "shasum": ""
             },
             "require": {
@@ -65,7 +65,7 @@
                 "plugin",
                 "tools"
             ],
-            "time": "2021-03-23T12:50:24+00:00"
+            "time": "2021-03-29T07:11:30+00:00"
         },
         {
             "name": "srag/dic",
@@ -98,7 +98,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\DIC\\": "src/"
+                    "srag\\DIC\\SrMoveAssessmentToolbar\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -147,7 +147,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\GeneratePluginInfosHelper\\": "src/"
+                    "srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -255,7 +255,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\LibraryLanguageInstaller\\": "src/"
+                    "srag\\LibraryLanguageInstaller\\SrMoveAssessmentToolbar\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
