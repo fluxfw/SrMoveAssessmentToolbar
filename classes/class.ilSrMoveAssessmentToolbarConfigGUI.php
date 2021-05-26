@@ -8,8 +8,6 @@ use srag\DIC\SrMoveAssessmentToolbar\DICTrait;
 /**
  * Class ilSrMoveAssessmentToolbarConfigGUI
  *
- * @author            studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
- *
  * @ilCtrl_isCalledBy srag\DevTools\SrMoveAssessmentToolbar\DevToolsCtrl: ilSrMoveAssessmentToolbarConfigGUI
  */
 class ilSrMoveAssessmentToolbarConfigGUI extends ilPluginConfigGUI

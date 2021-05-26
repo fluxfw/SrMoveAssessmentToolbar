@@ -1,17 +1,17 @@
 [
     {
         "name": "srag/devtools",
-        "version": "1.2.9",
-        "version_normalized": "1.2.9.0",
+        "version": "1.2.10",
+        "version_normalized": "1.2.10.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fluxfw/DevTools.git",
-            "reference": "664fb2a6166909b6d8366b1cc643fc236b2c80f4"
+            "url": "https://github.com/fluxapps/DevTools.git",
+            "reference": "cb3debea983b9f978a8d628d63c151c7925a7995"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fluxfw/DevTools/zipball/664fb2a6166909b6d8366b1cc643fc236b2c80f4",
-            "reference": "664fb2a6166909b6d8366b1cc643fc236b2c80f4",
+            "url": "https://api.github.com/repos/fluxapps/DevTools/zipball/cb3debea983b9f978a8d628d63c151c7925a7995",
+            "reference": "cb3debea983b9f978a8d628d63c151c7925a7995",
             "shasum": ""
         },
         "require": {
@@ -22,7 +22,7 @@
         "require-dev": {
             "srag/generateplugininfoshelper": ">=0.1.0"
         },
-        "time": "2021-03-29T07:11:30+00:00",
+        "time": "2021-05-26T09:04:47+00:00",
         "type": "library",
         "extra": {
             "ilias_plugin": {
@@ -47,14 +47,14 @@
         ],
         "authors": [
             {
-                "name": "studer + raimann ag - Team Custom 1",
-                "email": "support-custom1@studer-raimann.ch",
-                "homepage": "https://studer-raimann.ch",
+                "name": "fluxlabs",
+                "email": "support@fluxlabs.ch",
+                "homepage": "https://fluxlabs.ch",
                 "role": "Developer"
             }
         ],
         "description": "Add some dev tools to ILIAS plugin config, if core dev mode is enabled, like reload ctrl structure",
-        "homepage": "https://github.com/fluxfw/DevTools",
+        "homepage": "https://github.com/fluxapps/DevTools",
         "keywords": [
             "ILIAS",
             "dev",
@@ -64,17 +64,17 @@
     },
     {
         "name": "srag/dic",
-        "version": "0.32.2",
-        "version_normalized": "0.32.2.0",
+        "version": "0.32.3",
+        "version_normalized": "0.32.3.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fluxfw/DIC.git",
-            "reference": "0f16b0d52193cb7b094b8631e9c3b2367a061cac"
+            "url": "https://github.com/fluxapps/DIC.git",
+            "reference": "3bc4b45dc538e65bccd21d808e7dc44f4f860fbc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fluxfw/DIC/zipball/0f16b0d52193cb7b094b8631e9c3b2367a061cac",
-            "reference": "0f16b0d52193cb7b094b8631e9c3b2367a061cac",
+            "url": "https://api.github.com/repos/fluxapps/DIC/zipball/3bc4b45dc538e65bccd21d808e7dc44f4f860fbc",
+            "reference": "3bc4b45dc538e65bccd21d808e7dc44f4f860fbc",
             "shasum": ""
         },
         "require": {
@@ -83,7 +83,7 @@
         "require-dev": {
             "srag/generateplugininfoshelper": ">=0.1.0"
         },
-        "time": "2021-03-23T12:50:35+00:00",
+        "time": "2021-05-26T09:04:38+00:00",
         "type": "library",
         "extra": {
             "ilias_plugin": {
@@ -105,14 +105,14 @@
         ],
         "authors": [
             {
-                "name": "studer + raimann ag - Team Custom 1",
-                "email": "support-custom1@studer-raimann.ch",
-                "homepage": "https://studer-raimann.ch",
+                "name": "fluxlabs",
+                "email": "support@fluxlabs.ch",
+                "homepage": "https://fluxlabs.ch",
                 "role": "Developer"
             }
         ],
         "description": "Use all ILIAS globals in your class",
-        "homepage": "https://github.com/fluxfw/DIC",
+        "homepage": "https://github.com/fluxapps/DIC",
         "keywords": [
             "ILIAS",
             "dic",
@@ -122,23 +122,23 @@
     },
     {
         "name": "srag/generateplugininfoshelper",
-        "version": "2.10.2",
-        "version_normalized": "2.10.2.0",
+        "version": "2.10.3",
+        "version_normalized": "2.10.3.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fluxfw/GeneratePluginInfosHelper.git",
-            "reference": "53b1ad2d1ccf3e90182262b9421024fe11ee00f9"
+            "url": "https://github.com/fluxapps/GeneratePluginInfosHelper.git",
+            "reference": "ada645adb5b9afd7728b08273a47c4048fecb711"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fluxfw/GeneratePluginInfosHelper/zipball/53b1ad2d1ccf3e90182262b9421024fe11ee00f9",
-            "reference": "53b1ad2d1ccf3e90182262b9421024fe11ee00f9",
+            "url": "https://api.github.com/repos/fluxapps/GeneratePluginInfosHelper/zipball/ada645adb5b9afd7728b08273a47c4048fecb711",
+            "reference": "ada645adb5b9afd7728b08273a47c4048fecb711",
             "shasum": ""
         },
         "require": {
             "php": ">=7.0"
         },
-        "time": "2021-03-23T12:25:52+00:00",
+        "time": "2021-05-26T09:04:16+00:00",
         "type": "library",
         "extra": {
             "generate_plugin_readme_template": "LIBRARY",
@@ -156,14 +156,14 @@
         ],
         "authors": [
             {
-                "name": "studer + raimann ag - Team Custom 1",
-                "email": "support-custom1@studer-raimann.ch",
-                "homepage": "https://studer-raimann.ch",
+                "name": "fluxlabs",
+                "email": "support@fluxlabs.ch",
+                "homepage": "https://fluxlabs.ch",
                 "role": "Developer"
             }
         ],
         "description": "Automatic generate plugin infos such README.md, plugin.php, plugin.xml, ... from composer.json",
-        "homepage": "https://github.com/fluxfw/GeneratePluginInfosHelper",
+        "homepage": "https://github.com/fluxapps/GeneratePluginInfosHelper",
         "keywords": [
             "Infos",
             "generate",
@@ -173,17 +173,17 @@
     },
     {
         "name": "srag/librariesnamespacechanger",
-        "version": "0.15.2",
-        "version_normalized": "0.15.2.0",
+        "version": "0.15.3",
+        "version_normalized": "0.15.3.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fluxfw/LibrariesNamespaceChanger.git",
-            "reference": "cd3b0b6340fdc12ba7bfde0bcab3079d3b740483"
+            "url": "https://github.com/fluxapps/LibrariesNamespaceChanger.git",
+            "reference": "2512c9f78690e99605b7a6a04f769dffff5679c9"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fluxfw/LibrariesNamespaceChanger/zipball/cd3b0b6340fdc12ba7bfde0bcab3079d3b740483",
-            "reference": "cd3b0b6340fdc12ba7bfde0bcab3079d3b740483",
+            "url": "https://api.github.com/repos/fluxapps/LibrariesNamespaceChanger/zipball/2512c9f78690e99605b7a6a04f769dffff5679c9",
+            "reference": "2512c9f78690e99605b7a6a04f769dffff5679c9",
             "shasum": ""
         },
         "require": {
@@ -192,7 +192,7 @@
         "require-dev": {
             "srag/generateplugininfoshelper": ">=0.1.0"
         },
-        "time": "2021-03-23T12:47:58+00:00",
+        "time": "2021-05-26T09:03:36+00:00",
         "type": "library",
         "extra": {
             "generate_plugin_readme_template": "LIBRARY",
@@ -210,14 +210,14 @@
         ],
         "authors": [
             {
-                "name": "studer + raimann ag - Team Custom 1",
-                "email": "support-custom1@studer-raimann.ch",
-                "homepage": "https://studer-raimann.ch",
+                "name": "fluxlabs",
+                "email": "support@fluxlabs.ch",
+                "homepage": "https://fluxlabs.ch",
                 "role": "Developer"
             }
         ],
         "description": "Change namespace of libraries to plugin namespace",
-        "homepage": "https://github.com/fluxfw/LibrariesNamespaceChanger",
+        "homepage": "https://github.com/fluxapps/LibrariesNamespaceChanger",
         "keywords": [
             "changer",
             "libraries",
@@ -226,17 +226,17 @@
     },
     {
         "name": "srag/librarylanguageinstaller",
-        "version": "1.1.4",
-        "version_normalized": "1.1.4.0",
+        "version": "1.1.5",
+        "version_normalized": "1.1.5.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fluxfw/LibraryLanguageInstaller.git",
-            "reference": "9c047ae156e503186169dc91a0c4a5910a0cccb0"
+            "url": "https://github.com/fluxapps/LibraryLanguageInstaller.git",
+            "reference": "8a43c949412bbea33c80db5671d5d08bbc66eb3c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fluxfw/LibraryLanguageInstaller/zipball/9c047ae156e503186169dc91a0c4a5910a0cccb0",
-            "reference": "9c047ae156e503186169dc91a0c4a5910a0cccb0",
+            "url": "https://api.github.com/repos/fluxapps/LibraryLanguageInstaller/zipball/8a43c949412bbea33c80db5671d5d08bbc66eb3c",
+            "reference": "8a43c949412bbea33c80db5671d5d08bbc66eb3c",
             "shasum": ""
         },
         "require": {
@@ -246,7 +246,7 @@
         "require-dev": {
             "srag/generateplugininfoshelper": ">=0.1.0"
         },
-        "time": "2021-03-23T12:48:08+00:00",
+        "time": "2021-05-26T09:03:25+00:00",
         "type": "library",
         "extra": {
             "ilias_plugin": {
@@ -268,14 +268,14 @@
         ],
         "authors": [
             {
-                "name": "studer + raimann ag - Team Custom 1",
-                "email": "support-custom1@studer-raimann.ch",
-                "homepage": "https://studer-raimann.ch",
+                "name": "fluxlabs",
+                "email": "support@fluxlabs.ch",
+                "homepage": "https://fluxlabs.ch",
                 "role": "Developer"
             }
         ],
         "description": "Install additional and external lang files for a plugin",
-        "homepage": "https://github.com/fluxfw/LibraryLanguageInstaller",
+        "homepage": "https://github.com/fluxapps/LibraryLanguageInstaller",
         "keywords": [
             "ILIAS",
             "installer",

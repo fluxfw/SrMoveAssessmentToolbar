@@ -19,8 +19,6 @@ use srag\LibraryLanguageInstaller\SrMoveAssessmentToolbar\LibraryLanguageInstall
  * Class DevToolsCtrl
  *
  * @package srag\DevTools\SrMoveAssessmentToolbar
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 class DevToolsCtrl
 {

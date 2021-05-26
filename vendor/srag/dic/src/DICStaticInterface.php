@@ -12,8 +12,6 @@ use srag\DIC\SrMoveAssessmentToolbar\Version\VersionInterface;
  * Interface DICStaticInterface
  *
  * @package srag\DIC\SrMoveAssessmentToolbar
- *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 interface DICStaticInterface
 {

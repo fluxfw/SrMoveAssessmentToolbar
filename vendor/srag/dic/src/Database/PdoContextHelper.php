@@ -12,8 +12,6 @@ use srag\DIC\SrMoveAssessmentToolbar\Exception\DICException;
  *
  * @package srag\DIC\SrMoveAssessmentToolbar\Database
  *
- * @author  studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
- *
  * @internal
  */
 final class PdoContextHelper extends ilDBPdo
