@@ -1,7 +1,7 @@
 {
   "name": "srag/srmoveassessmenttoolbar",
   "description": "Move assessment toolbar",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "extra": {
     "ilias_plugin": {
       "id": "srmoasto",
