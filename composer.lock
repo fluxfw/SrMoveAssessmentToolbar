@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b7c220a0a488c201a8755ca74f8ea5e",
+    "content-hash": "7b1d8661f6610a0d016e373950da6aed",
     "packages": [
         {
             "name": "srag/devtools",
-            "version": "1.2.10",
+            "version": "1.2.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxapps/DevTools.git",
-                "reference": "cb3debea983b9f978a8d628d63c151c7925a7995"
+                "reference": "b2b05099ca3c5d7aa0d9c7767bfd9d0368225085"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxapps/DevTools/zipball/cb3debea983b9f978a8d628d63c151c7925a7995",
-                "reference": "cb3debea983b9f978a8d628d63c151c7925a7995",
+                "url": "https://api.github.com/repos/fluxapps/DevTools/zipball/b2b05099ca3c5d7aa0d9c7767bfd9d0368225085",
+                "reference": "b2b05099ca3c5d7aa0d9c7767bfd9d0368225085",
                 "shasum": ""
             },
             "require": {
@@ -65,20 +65,20 @@
                 "plugin",
                 "tools"
             ],
-            "time": "2021-05-26T09:04:47+00:00"
+            "time": "2021-06-04T08:21:18+00:00"
         },
         {
             "name": "srag/dic",
-            "version": "0.32.3",
+            "version": "0.32.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxapps/DIC.git",
-                "reference": "3bc4b45dc538e65bccd21d808e7dc44f4f860fbc"
+                "reference": "12ad676887c10a76128415471f393a1051fb8fbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxapps/DIC/zipball/3bc4b45dc538e65bccd21d808e7dc44f4f860fbc",
-                "reference": "3bc4b45dc538e65bccd21d808e7dc44f4f860fbc",
+                "url": "https://api.github.com/repos/fluxapps/DIC/zipball/12ad676887c10a76128415471f393a1051fb8fbb",
+                "reference": "12ad676887c10a76128415471f393a1051fb8fbb",
                 "shasum": ""
             },
             "require": {
@@ -121,20 +121,20 @@
                 "globals",
                 "trait"
             ],
-            "time": "2021-05-26T09:04:38+00:00"
+            "time": "2021-06-04T08:21:42+00:00"
         },
         {
             "name": "srag/generateplugininfoshelper",
-            "version": "2.10.3",
+            "version": "2.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxapps/GeneratePluginInfosHelper.git",
-                "reference": "ada645adb5b9afd7728b08273a47c4048fecb711"
+                "reference": "fe5871f8f3881aea30ad290819a724824e304792"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxapps/GeneratePluginInfosHelper/zipball/ada645adb5b9afd7728b08273a47c4048fecb711",
-                "reference": "ada645adb5b9afd7728b08273a47c4048fecb711",
+                "url": "https://api.github.com/repos/fluxapps/GeneratePluginInfosHelper/zipball/fe5871f8f3881aea30ad290819a724824e304792",
+                "reference": "fe5871f8f3881aea30ad290819a724824e304792",
                 "shasum": ""
             },
             "require": {
@@ -170,20 +170,20 @@
                 "helper",
                 "plugin"
             ],
-            "time": "2021-05-26T09:04:16+00:00"
+            "time": "2021-06-04T08:21:59+00:00"
         },
         {
             "name": "srag/librariesnamespacechanger",
-            "version": "0.15.3",
+            "version": "0.15.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxapps/LibrariesNamespaceChanger.git",
-                "reference": "2512c9f78690e99605b7a6a04f769dffff5679c9"
+                "reference": "c9dba49e7f13cc2bd4d3b0ff3d5016c756212a97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxapps/LibrariesNamespaceChanger/zipball/2512c9f78690e99605b7a6a04f769dffff5679c9",
-                "reference": "2512c9f78690e99605b7a6a04f769dffff5679c9",
+                "url": "https://api.github.com/repos/fluxapps/LibrariesNamespaceChanger/zipball/c9dba49e7f13cc2bd4d3b0ff3d5016c756212a97",
+                "reference": "c9dba49e7f13cc2bd4d3b0ff3d5016c756212a97",
                 "shasum": ""
             },
             "require": {
@@ -221,20 +221,20 @@
                 "libraries",
                 "namespace"
             ],
-            "time": "2021-05-26T09:03:36+00:00"
+            "time": "2021-06-04T08:23:01+00:00"
         },
         {
             "name": "srag/librarylanguageinstaller",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxapps/LibraryLanguageInstaller.git",
-                "reference": "8a43c949412bbea33c80db5671d5d08bbc66eb3c"
+                "reference": "d1836820739a6eb9610b4a54460ec3484aff6ea8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxapps/LibraryLanguageInstaller/zipball/8a43c949412bbea33c80db5671d5d08bbc66eb3c",
-                "reference": "8a43c949412bbea33c80db5671d5d08bbc66eb3c",
+                "url": "https://api.github.com/repos/fluxapps/LibraryLanguageInstaller/zipball/d1836820739a6eb9610b4a54460ec3484aff6ea8",
+                "reference": "d1836820739a6eb9610b4a54460ec3484aff6ea8",
                 "shasum": ""
             },
             "require": {
@@ -278,7 +278,7 @@
                 "language",
                 "library"
             ],
-            "time": "2021-05-26T09:03:25+00:00"
+            "time": "2021-06-04T08:23:14+00:00"
         }
     ],
     "packages-dev": [],
