@@ -31,7 +31,7 @@
     }
   ],
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.2",
     "srag/devtools": ">=0.1.0",
     "srag/dic": ">=0.1.0",
     "srag/generateplugininfoshelper": ">=0.1.0",

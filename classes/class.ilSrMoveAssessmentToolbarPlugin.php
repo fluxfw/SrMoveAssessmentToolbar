@@ -56,7 +56,7 @@ class ilSrMoveAssessmentToolbarPlugin extends ilUserInterfaceHookPlugin
     /**
      * @inheritDoc
      */
-    public function updateLanguages(/*?array*/ $a_lang_keys = null)/* : void*/
+    public function updateLanguages(/*?array*/ $a_lang_keys = null) : void
     {
         parent::updateLanguages($a_lang_keys);
 
