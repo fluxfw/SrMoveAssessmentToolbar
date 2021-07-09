@@ -15,7 +15,6 @@ return array(
     'srag\\DIC\\SrMoveAssessmentToolbar\\DICTrait' => $vendorDir . '/srag/dic/src/DICTrait.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\AbstractDIC' => $vendorDir . '/srag/dic/src/DIC/AbstractDIC.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\DICInterface' => $vendorDir . '/srag/dic/src/DIC/DICInterface.php',
-    'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\Implementation\\ILIAS54DIC' => $vendorDir . '/srag/dic/src/DIC/Implementation/ILIAS54DIC.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\Implementation\\ILIAS60DIC' => $vendorDir . '/srag/dic/src/DIC/Implementation/ILIAS60DIC.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\AbstractILIASDatabaseDetector' => $vendorDir . '/srag/dic/src/Database/AbstractILIASDatabaseDetector.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\DatabaseDetector' => $vendorDir . '/srag/dic/src/Database/DatabaseDetector.php',

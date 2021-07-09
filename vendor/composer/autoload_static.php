@@ -59,7 +59,6 @@ class ComposerStaticInitdc467d51615b083cb383723e513abf00
         'srag\\DIC\\SrMoveAssessmentToolbar\\DICTrait' => __DIR__ . '/..' . '/srag/dic/src/DICTrait.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\AbstractDIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/AbstractDIC.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\DICInterface' => __DIR__ . '/..' . '/srag/dic/src/DIC/DICInterface.php',
-        'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\Implementation\\ILIAS54DIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/Implementation/ILIAS54DIC.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\DIC\\Implementation\\ILIAS60DIC' => __DIR__ . '/..' . '/srag/dic/src/DIC/Implementation/ILIAS60DIC.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\AbstractILIASDatabaseDetector' => __DIR__ . '/..' . '/srag/dic/src/Database/AbstractILIASDatabaseDetector.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Database\\DatabaseDetector' => __DIR__ . '/..' . '/srag/dic/src/Database/DatabaseDetector.php',
