@@ -1,16 +1,7 @@
 {
   "name": "srag/srmoveassessmenttoolbar",
   "description": "Move assessment toolbar",
-  "version": "1.3.0",
-  "extra": {
-    "ilias_plugin": {
-      "id": "srmoasto",
-      "name": "SrMoveAssessmentToolbar",
-      "ilias_min_version": "6.0",
-      "ilias_max_version": "7.999",
-      "slot": "Services/UIComponent/UserInterfaceHook"
-    }
-  },
+  "version": "1.4.0",
   "type": "project",
   "keywords": [
     "ilias",
@@ -18,21 +9,11 @@
     "plugin",
     "user"
   ],
-  "homepage": "https://github.com/fluxapps/SrMoveAssessmentToolbar",
   "license": "GPL-3.0-only",
-  "authors": [
-    {
-      "name": "fluxlabs",
-      "email": "support@fluxlabs.ch",
-      "homepage": "https://fluxlabs.ch",
-      "role": "Developer"
-    }
-  ],
   "require": {
     "php": ">=7.2",
     "srag/devtools": ">=0.1.0",
     "srag/dic": ">=0.1.0",
-    "srag/generateplugininfoshelper": ">=0.1.0",
     "srag/librariesnamespacechanger": ">=0.1.0"
   },
   "autoload": {
@@ -53,11 +34,7 @@
   },
   "scripts": {
     "pre-autoload-dump": [
-      "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
-      "srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\GeneratePluginPhpAndXml::generatePluginPhpAndXml"
-    ],
-    "update-version": [
-      "srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\UpdateVersion::updateVersion"
+      "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces"
     ]
   }
 }

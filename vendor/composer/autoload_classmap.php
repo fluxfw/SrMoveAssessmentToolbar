@@ -34,9 +34,6 @@ return array(
     'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\Version' => $vendorDir . '/srag/dic/src/Version/Version.php',
     'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\VersionInterface' => $vendorDir . '/srag/dic/src/Version/VersionInterface.php',
     'srag\\DevTools\\SrMoveAssessmentToolbar\\DevToolsCtrl' => $vendorDir . '/srag/devtools/src/class.DevToolsCtrl.php',
-    'srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\GeneratePluginPhpAndXml' => $vendorDir . '/srag/generateplugininfoshelper/src/GeneratePluginPhpAndXml.php',
-    'srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\GeneratePluginReadme' => $vendorDir . '/srag/generateplugininfoshelper/src/GeneratePluginReadme.php',
-    'srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\UpdateVersion' => $vendorDir . '/srag/generateplugininfoshelper/src/UpdateVersion.php',
     'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => $vendorDir . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
     'srag\\LibraryLanguageInstaller\\SrMoveAssessmentToolbar\\LibraryLanguageInstaller' => $vendorDir . '/srag/librarylanguageinstaller/src/LibraryLanguageInstaller.php',
 );
