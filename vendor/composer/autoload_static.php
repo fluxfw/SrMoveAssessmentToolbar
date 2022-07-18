@@ -16,7 +16,6 @@ class ComposerStaticInitdc467d51615b083cb383723e513abf00
             'srag\\Plugins\\SrMoveAssessmentToolbar\\' => 37,
             'srag\\LibraryLanguageInstaller\\SrMoveAssessmentToolbar\\' => 54,
             'srag\\LibrariesNamespaceChanger\\' => 31,
-            'srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\' => 55,
             'srag\\DevTools\\SrMoveAssessmentToolbar\\' => 38,
             'srag\\DIC\\SrMoveAssessmentToolbar\\' => 33,
         ),
@@ -34,10 +33,6 @@ class ComposerStaticInitdc467d51615b083cb383723e513abf00
         'srag\\LibrariesNamespaceChanger\\' => 
         array (
             0 => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src',
-        ),
-        'srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src',
         ),
         'srag\\DevTools\\SrMoveAssessmentToolbar\\' => 
         array (
@@ -78,9 +73,6 @@ class ComposerStaticInitdc467d51615b083cb383723e513abf00
         'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\Version' => __DIR__ . '/..' . '/srag/dic/src/Version/Version.php',
         'srag\\DIC\\SrMoveAssessmentToolbar\\Version\\VersionInterface' => __DIR__ . '/..' . '/srag/dic/src/Version/VersionInterface.php',
         'srag\\DevTools\\SrMoveAssessmentToolbar\\DevToolsCtrl' => __DIR__ . '/..' . '/srag/devtools/src/class.DevToolsCtrl.php',
-        'srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginPhpAndXml.php',
-        'srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\GeneratePluginReadme' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginReadme.php',
-        'srag\\GeneratePluginInfosHelper\\SrMoveAssessmentToolbar\\UpdateVersion' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/UpdateVersion.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
         'srag\\LibraryLanguageInstaller\\SrMoveAssessmentToolbar\\LibraryLanguageInstaller' => __DIR__ . '/..' . '/srag/librarylanguageinstaller/src/LibraryLanguageInstaller.php',
     );
